@@ -3,10 +3,10 @@
 &kscan0 {
         compatible = "zmk,keyboard";  // 追加
         row-gpios  // 追加（適切なピンに変更する必要あり）
-            = <&xiao_d 2 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 3 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 4 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 5 GPIO_ACTIVE_HIGH> 
+            = <&xiao_d 1 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 2 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 3 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 6 GPIO_ACTIVE_HIGH>
             ;
 
         col-gpios
